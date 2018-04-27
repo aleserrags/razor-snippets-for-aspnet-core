@@ -1,0 +1,54 @@
+{
+    "helper-html-ActionLink-razor":{
+		"prefix": "@Html.ActionLink",
+		"body":[
+			"@Html.ActionLink(${1:string linkText}, ${2:string actionName}, ${0:string controllerName})"
+		],
+		"description": "Html.ActionLink: \n Return an anchor element (a element) for the specified link text, action and controller.",
+		
+	},
+
+	"helper-html-Action-razor":{
+		"prefix": "@Html.Action",
+		"body":[
+			"@Html.Action(${1:string actionName}, ${0:string controllerName})"
+		],
+		"description": "Html.Action: \n Invokes the specified child action method using the specified controller name and return the result as an HTML string."
+		
+	},
+
+	"helper-html-AntiForgeryToken-razor":{
+		"prefix": "@Html.AntiForgeryToken",
+		"body":[
+			"@Html.AntiForgeryToken()"
+		],
+		"description": "Html.AntiForgeryToken: \n Invokes the specified child action method using the specified controller name and return the result as an HTML string."
+		
+	},
+
+	"helper-html-CheckBox-razor":{
+		"prefix": "@Html.CheckBox",
+		"body":[
+			"@Html.CheckBox(${0:string name})"
+		],
+		"description": "Html.CheckBox: \n Returns a check box input element by using the specified HTML helper and the name of the form field."		
+	},
+
+	"helper-View-Bag-razor":{
+		"prefix": "@ViewBag",
+		"body":[
+			"@ViewBag.${0:viewBagName}"
+		],
+		"description": "ViewBag: \n gets the view bag"
+		
+	},
+
+	"helper-View-Data-razor":{
+		"prefix": "@ViewData",
+		"body":[
+			"@ViewData[\"${0:viewDataName}\"]"
+		],
+		"description": "ViewData: \n Gets or sets a dictionary that contains data to pass between the controller and the view."
+		
+	}
+}
