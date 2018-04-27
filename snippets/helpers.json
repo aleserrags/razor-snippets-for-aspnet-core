@@ -39,8 +39,7 @@
 		"body":[
 			"@ViewBag.${0:viewBagName}"
 		],
-		"description": "ViewBag: \n gets the view bag"
-		
+		"description": "ViewBag: \n gets the view bag"	
 	},
 
 	"helper-View-Data-razor":{
@@ -48,7 +47,24 @@
 		"body":[
 			"@ViewData[\"${0:viewDataName}\"]"
 		],
-		"description": "ViewData: \n Gets or sets a dictionary that contains data to pass between the controller and the view."
-		
+		"description": "ViewData: \n Gets or sets a dictionary that contains data to pass between the controller and the view."		
+	},
+
+	"helper-renderbody-razor":{
+		"prefix": "@RenderBody",
+		"body":[
+			"@RenderBody()"
+		],
+		"description": "RenderBody: \n In a Razor layout page, renders the portion of a content page that is not within a named section."
+	},
+
+	"helper-model-view-razor":{
+		"prefix": "@model",
+		"body":[
+			"@model ${0:namespace_model}"
+		],
+		"description": "model: \n By including a @model statement at the top of the view template file, you can specify the type of object that the view expects."
 	}
+
+	
 }
