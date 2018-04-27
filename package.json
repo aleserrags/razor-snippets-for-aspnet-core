@@ -19,7 +19,7 @@
         "type": "git",
         "url": "https://github.com/alexandreserradev/razor-snippets-for-aspnet-core"
     },
-    "icon": "img/razor.jpg",
+    "icon": "img/razor.png",
     "contributes": {
         "snippets": [
             {
