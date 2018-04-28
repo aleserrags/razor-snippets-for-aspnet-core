@@ -2,7 +2,7 @@
     "name": "razor-snippets-for-asp-net-core",
     "displayName": "Razor Snippets",
     "description": "Razor Snippets for Asp.Net Core",
-    "version": "0.0.2",
+    "version": "0.0.3",
     "publisher": "aledev29",
     "engines": {
         "vscode": "^1.22.0"
@@ -19,7 +19,7 @@
         "type": "git",
         "url": "https://github.com/alexandreserradev/razor-snippets-for-aspnet-core"
     },
-    "icon": "img/razor.png",
+    "icon": "img/razor2.png",
     "contributes": {
         "snippets": [
             {

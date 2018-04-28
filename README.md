@@ -23,10 +23,13 @@ Type part of a snippet, press `enter`, and the snippet unfolds.
 
 | HTML Helpers                 | 
 | ---------------------------- |
+| `@Html.DisplayNameFor`       |
+| `@Html.DisplayFor`           |
 | `@Html.ActionLink`           | 
 | `@Html.Action`               | 
 | `@Html.AntiForgeryToken`     | 
 | `@Html.CheckBox`             |
+| `@Html.CheckBoxFor`          |
 
 | Others                       | 
 | ---------------------------- |

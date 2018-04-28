@@ -3,9 +3,11 @@
 ## [0.0.3] [Update]
 
 New Snippets
-- @RenderSection*
-- @Html.Partial *
-- @section *
+- @RenderSection
+- @Html.Partial
+- @section
+- @Html.DisplayNameFor
+- @Html.DisplayFor
 
 Others
 - Change icon
