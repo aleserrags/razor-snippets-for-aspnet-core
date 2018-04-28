@@ -33,6 +33,10 @@
             {
                 "language": "razor",
                 "path": "./snippets/loop.json"
+            },
+            {
+                "language": "razor",
+                "path": "./snippets/others.json"
             }
         ]
     }
