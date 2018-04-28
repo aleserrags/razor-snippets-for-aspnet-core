@@ -1,7 +1,18 @@
 # Change Log
 
+## [0.0.3] [Update]
+
+New Snippets
+- @RenderSection*
+- @Html.Partial *
+- @section *
+
+Others
+- Change icon
+
 ## [0.0.2] [Update]
-New Snippts
+
+New Snippets
 - @RenderBody
 - @model
 

@@ -4,8 +4,7 @@
 		"body":[
 			"@Html.ActionLink(${1:string linkText}, ${2:string actionName}, ${0:string controllerName})"
 		],
-		"description": "Html.ActionLink: \n Return an anchor element (a element) for the specified link text, action and controller.",
-		
+		"description": "Html.ActionLink: \n Return an anchor element (a element) for the specified link text, action and controller."		
 	},
 
 	"helper-html-Action-razor":{
@@ -14,7 +13,6 @@
 			"@Html.Action(${1:string actionName}, ${0:string controllerName})"
 		],
 		"description": "Html.Action: \n Invokes the specified child action method using the specified controller name and return the result as an HTML string."
-		
 	},
 
 	"helper-html-AntiForgeryToken-razor":{
@@ -22,8 +20,7 @@
 		"body":[
 			"@Html.AntiForgeryToken()"
 		],
-		"description": "Html.AntiForgeryToken: \n Invokes the specified child action method using the specified controller name and return the result as an HTML string."
-		
+		"description": "Html.AntiForgeryToken: \n Invokes the specified child action method using the specified controller name and return the result as an HTML string."		
 	},
 
 	"helper-html-CheckBox-razor":{
@@ -34,37 +31,11 @@
 		"description": "Html.CheckBox: \n Returns a check box input element by using the specified HTML helper and the name of the form field."		
 	},
 
-	"helper-View-Bag-razor":{
-		"prefix": "@ViewBag",
+	"helper-html-Partial-razor":{
+		"prefix": "@Html.Partial",
 		"body":[
-			"@ViewBag.${0:viewBagName}"
+			"@Html.Partial(${1:string partialViewName}, ${0:TModel model})"
 		],
-		"description": "ViewBag: \n gets the view bag"	
-	},
-
-	"helper-View-Data-razor":{
-		"prefix": "@ViewData",
-		"body":[
-			"@ViewData[\"${0:viewDataName}\"]"
-		],
-		"description": "ViewData: \n Gets or sets a dictionary that contains data to pass between the controller and the view."		
-	},
-
-	"helper-renderbody-razor":{
-		"prefix": "@RenderBody",
-		"body":[
-			"@RenderBody()"
-		],
-		"description": "RenderBody: \n In a Razor layout page, renders the portion of a content page that is not within a named section."
-	},
-
-	"helper-model-view-razor":{
-		"prefix": "@model",
-		"body":[
-			"@model ${0:namespace_model}"
-		],
-		"description": "model: \n By including a @model statement at the top of the view template file, you can specify the type of object that the view expects."
+		"description": "Html.Partial: \n Returns HTML markup for the specified partial view."
 	}
-
-	
 }

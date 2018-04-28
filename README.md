@@ -8,20 +8,31 @@ Type part of a snippet, press `enter`, and the snippet unfolds.
 
 ### Snippets
 
-| Snippet                      | 
+| Conditional Expressions      | 
 | ---------------------------- |
-| `@switch`                    |
 | `@if`                        |
-| `@ifelse`                    | 
+| `@ifelse`                    |
+| `@switch`                    |
+
+| Repetition Structures        | 
+| ---------------------------- |
+| `@for`                       |
+| `@foreach`                   | 
+| `@while`                     | 
+| `@do`                        |
+
+| HTML Helpers                 | 
+| ---------------------------- |
 | `@Html.ActionLink`           | 
 | `@Html.Action`               | 
 | `@Html.AntiForgeryToken`     | 
-| `@Html.CheckBox`             | 
+| `@Html.CheckBox`             |
+
+| Others                       | 
+| ---------------------------- |
 | `@ViewBag`                   | 
 | `@ViewData`                  | 
-| `@foreach`                   | 
-| `@for`                       | 
-| `@while`                     | 
-| `@do`                        |
 | `@RenderBody`                | 
-| `@model`                     | 
+| `@model`                     |
+| `@RenderSection`             |
+| `@section`                   |
