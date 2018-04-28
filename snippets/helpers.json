@@ -37,5 +37,21 @@
 			"@Html.Partial(${1:string partialViewName}, ${0:TModel model})"
 		],
 		"description": "Html.Partial: \n Returns HTML markup for the specified partial view."
+	},
+
+	"helper-html-DisplayNameFor-razor":{
+		"prefix": "@Html.DisplayNameFor",
+		"body":[
+			"@Html.DisplayNameFor(${1:model} => ${2:model}.${0:property})"
+		],
+		"description": "Html.DisplayNameFor: \n Returns the display name for the specified expression if the current model represents a collection."
+	},
+
+	"helper-html-DisplayFor-razor":{
+		"prefix": "@Html.DisplayFor",
+		"body":[
+			"@Html.DisplayFor(${1:modelItem} => ${2:item}.${0:property})"
+		],
+		"description": "Html.DisplayFor: \n Returns HTML markup for the expression, using a display template."
 	}
 }
